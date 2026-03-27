@@ -14,9 +14,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'NL Systems | Production-Grade AI Data Engineering',
+  title: 'NL Systems',
   description: 'We build deterministic RAG pipelines and automated data extraction systems with a focus on privacy, low latency, and data integrity.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
@@ -28,11 +27,10 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/icon.png',
+        type: 'image/png',
       },
     ],
-    apple: '/apple-icon.png',
   },
 }
 
